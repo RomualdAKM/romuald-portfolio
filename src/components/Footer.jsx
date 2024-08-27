@@ -36,7 +36,7 @@ const Footer = () => (
 
         <div className="grid grid-cols-2">
           {/* styles is a prop */}
-          <a href={resumeLink} target="_blank">
+          {/* <a href={resumeLink} target="_blank">
             <Button styles="mt-10 mr-3" text="Resume" icon="AiFillGithub" />
           </a>
           <a href={repoLink} target="_blank">
@@ -45,7 +45,7 @@ const Footer = () => (
               text="Star"
               icon={AiFillGithub}
             />
-          </a>
+          </a> */}
         </div>
       </div>
 
@@ -59,7 +59,7 @@ const Footer = () => (
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
       <p>
-        Made with 💙 by Parth Mittal & the Open Source Community
+        Romuald AKANMOU
       </p>
     </div>
   </footer>

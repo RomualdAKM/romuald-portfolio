@@ -1206,7 +1206,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "https://x.com/romuald_dev?t=CEJQH0MXu69lyY4tdctUfQ&s=09",
   },
   // {
   //   id: "social-media-5",
