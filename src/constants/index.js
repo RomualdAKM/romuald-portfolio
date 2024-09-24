@@ -406,7 +406,7 @@ export const experiences = [
     positions: [
       {
         title: "Developpeur informatique",
-        duration: "Oct 2023 - Aut 2024",
+        duration: "Oct 2023 - Setp 2024",
         content: [
           {
             text: "Mon rôle comprenait  l'analyse des besoins clients, la conception de solutions techniques pour répondre à ces besoins, la mise en place de l'infrastructure nécessaire, la mise en production et la maintenance des applications, ainsi que la gestion des erreurs et des problèmes techniques.",
@@ -424,7 +424,7 @@ export const experiences = [
     positions: [
       {
         title: "Développeur web",
-        duration: "2022 - 2023",
+        duration: "avr 2022 - aout 2023",
         content: [
           {
             text: "Mon rôle chez NGA-Numerik se résume à la création de solutions SaaS (Software as a Service).",
@@ -442,7 +442,7 @@ export const experiences = [
     positions: [
       {
         title: "Developpeur d'application",
-        duration: "2021",
+        duration: "oct 2021 - avr 2022",
         content: [
           {
             text: "J'ai pu acquérir de l'expérience en travaillant sur des projets concrets, en mettant en place des solutions techniques pour répondre aux besoins des utilisateurs, et en gérant les erreurs et les problèmes techniques.",
@@ -461,8 +461,8 @@ export const experiences = [
     // link: "https://iris.nitk.ac.in/about_us",
     positions: [
       {
-        title: "Tech Lead",
-        duration: "2021",
+        title: "Développeur laravel",
+        duration: "mars 2021 - juin 2021",
         content: [
           {
             text: "DreamTeck m'a permis de mettre en pratique mes compétences en travaillant sur des projets réels.",
@@ -716,6 +716,98 @@ export const projects = [
   },
   {
     id: "project-2",
+    title: "MEDESC ELEC",
+    // github: "https://github.com/mittal-parth/Cluboard",
+    link: "https://medes-elec.fr/",
+    image: "https://romuald.binarybloom.tech/assets/img/folio9.png",
+    content:
+      "Site vitrine - Solutions électriques",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDjango,
+        name: "Django"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-4",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-5",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-6",
+        icon: SiChartdotjs,
+        name: "Chart.js"
+      },
+    ],
+  },
+  {
+    id: "project-3",
+    title: "restoQR",
+    // github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
+    link: "https://restoqr.site/",
+    image: "",
+    content:
+      "Digitalisez votre restaurant avec notre solution tout-en-un : créez des menus digitaux personnalisés, permettez à vos clients de passer commande et de payer en ligne facilement. Collectez et gérez les avis clients pour améliorer constamment votre service et fidéliser votre clientèle.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-4",
+    title: "Contact Shop",
+    // github: "https://github.com/mittal-parth/personal-portfolio",
+    link: "https://contactshop.store/",
+    image: "",
+    content: " Développez votre Réseau Instantanément ! Accédez à des milliers de contacts whatsApp qualifiés en un clic. Démarrez vos campagnes marketing ou élargissez votre réseau professionnel dès aujourd'hui. ",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
+      },
+      {
+        id: "icon-3",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+    ],
+  },
+  {
+    id: "project-5",
     title: "HETERO CURIEUX",
     // github: "https://github.com/mittal-parth/GreenTrust",
     link: "https://heteroscurieux.com/",
@@ -756,7 +848,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-6",
     title: "EASY STANCER",
     // github: "https://github.com/CommanderAstern/ChargeSwap",
     link: "http://store.fga-numerik.fr/",
@@ -802,7 +894,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-7",
     title: "AVIS CLIENT",
     github: "",
     link: "http://avis-client.online/",
@@ -838,7 +930,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-5",
+    id: "project-8",
     title: "GED",
     github: "",
     link: "https://gedact.fga-numerik.fr/",
@@ -864,7 +956,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-6",
+    id: "project-9",
     title: "GESTION CABINET DENTAIRE",
     github: "",
     link: "",
@@ -890,7 +982,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-7",
+    id: "project-10",
     title: "VIBECRO CORP",
     github: "",
     link: "https://vibecro-corp.tech/",
@@ -930,98 +1022,7 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-8",
-    title: "MEDESC ELEC",
-    // github: "https://github.com/mittal-parth/Cluboard",
-    link: "https://medes-elec.fr/",
-    image: "https://romuald.binarybloom.tech/assets/img/folio9.png",
-    content:
-      "Site vitrine - Solutions électriques",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "restoQR",
-    // github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://restoqr.site/",
-    image: "",
-    content:
-      "Digitalisez votre restaurant avec notre solution tout-en-un : créez des menus digitaux personnalisés, permettez à vos clients de passer commande et de payer en ligne facilement. Collectez et gérez les avis clients pour améliorer constamment votre service et fidéliser votre clientèle.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Contact Shop",
-    // github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://contactshop.store/",
-    image: "",
-    content: " Développez votre Réseau Instantanément ! Accédez à des milliers de contacts whatsApp qualifiés en un clic. Démarrez vos campagnes marketing ou élargissez votre réseau professionnel dès aujourd'hui. ",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-    ],
-  },
+ 
 ];
 
 export const blogPosts = [
